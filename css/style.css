@@ -1,0 +1,120 @@
+html,body
+{
+  padding:0;
+  margin:0;
+  height:100%;
+}
+
+/*template*/
+
+body {
+  /* Margin bottom by footer height */
+  padding-bottom: 60px;
+  
+}
+.panel-footer {
+  position: absolute;
+  bottom: 0;
+  left:0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  
+  background-color: #f5f5f5;
+}
+
+
+
+
+#p_header
+{
+   text-align:center;
+   font-family:Courier;
+   font-size:25px;
+}
+#header
+{
+  background-color:#AAAAAA;
+}
+#header1
+{
+  background-color:#BBBBBB;
+}
+h1
+{
+  text-align:center;
+}
+p
+{
+  font-size:20px;
+}
+#button1
+{
+  display: block;
+  margin: 0 auto;
+  margin-top:50px;
+  font-size:20px;
+  border:1px;
+  border-style:solid;
+  border-color:black;
+  border-radius:25px;
+  color:white;
+  font-family:Courier;
+
+  border-radius: 28px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 17px;
+  background: #2b3840;
+  padding: 10px 16px 10px 16px;
+  text-decoration: none;
+  outline:none;
+}
+
+#button1:hover {
+  background: #7a0918;
+  text-decoration: none;
+}
+
+#button2
+{
+  display: block;
+  margin: 0 auto;
+  margin-top:20px;
+  background-color:#3b5998;
+  border:none;
+  color:white;
+  border-radius: 28px;
+  font-family: Courier New;
+  font-size: 17px;
+  padding: 10px 16px 10px 16px;
+  text-decoration: none;
+  outline:none;
+}
+
+#button2:hover {
+ background-color:#1d3469;
+}
+
+
+#outer
+{
+  
+  display: block;
+  margin-top:30px;
+  margin: 0 auto;
+  height:50%;
+  width:50%;
+  text-align:center;
+}
+#DIV
+{
+  text-align:center;
+  margin-top:10%;
+  margin-left:30%;
+  margin-right:30%;
+}
+.panel-body
+{
+  margin-bottom:50px;
+}
